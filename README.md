@@ -1,4 +1,5 @@
 Name:Sai Darshan
+
 Register Number:2212221240047
 
 # Experiment--02-Implementation-of-combinational-logic
@@ -22,8 +23,11 @@ Using NOR gates NOR gate is actually a combination of two logic gates: OR gate f
 
 ## Procedure
 1.Using NAND gates and wires contruct.
+
 2.Construct the same for using NOR gates and wires.
+
 3.Find RTL and Timing Diagram for both the expressions.
+
 4.End the program.
 
 ## Program:
