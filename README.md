@@ -1,6 +1,6 @@
-Name:Sai Darshan
+Name: Sai Darshan
 
-Register Number:2212221240047
+Register Number: 2212221240047
 
 # Experiment--02-Implementation-of-combinational-logic
 
