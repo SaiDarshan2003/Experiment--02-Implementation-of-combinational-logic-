@@ -3,7 +3,7 @@ Name:Sai Darshan
 Register Number:2212221240047
 
 # Experiment--02-Implementation-of-combinational-logic
-Implementation of combinational logic gates
+
  
 ## AIM:
 To implement the given logic function verify its operation in Quartus using Verilog programming.
@@ -12,7 +12,9 @@ F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
  
  
 ## Equipments Required:
+
 Hardware – PCs, Cyclone II , USB flasher
+
 Software – Quartus prime
 
 
@@ -31,10 +33,7 @@ Using NOR gates NOR gate is actually a combination of two logic gates: OR gate f
 4.End the program.
 
 ## Program:
-/*
-Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
-Developed by: Sai Darshan
-RegisterNumber:  2212221240047
+```
 module exp2(A,B,C,D,F1);
 input A,B,C,D;
 output F1;
@@ -50,13 +49,14 @@ assign x5=(B)&(~C)&(D);
 assign F1=x1|x2|x3|x4|x5;
 endmodule
 
-*/
+```
+## Truth Table
 
 ![image](https://github.com/SaiDarshan2003/Experiment--02-Implementation-of-combinational-logic-/assets/94692595/d18d6192-041f-4616-b104-88c1e83c1302)
 
-## Output:
 ## RTL
 ![Screenshot 2023-08-26 083352](https://github.com/SaiDarshan2003/Experiment--02-Implementation-of-combinational-logic-/assets/94692595/865bcda9-a7ab-45bb-845a-9a4f8b360d14)
+
 ## Timing Diagram
 ![Screenshot 2023-08-26 094521](https://github.com/SaiDarshan2003/Experiment--02-Implementation-of-combinational-logic-/assets/94692595/2b8a0299-9efb-4c8a-a944-2447913d4214)
 
