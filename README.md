@@ -1,8 +1,6 @@
-Name: Sai Darshan
 
-Register Number: 2212221240047
 
-# Experiment--02-Implementation-of-combinational-logic
+# Experiment 02 Implementation 0f combinational logic
 
  
 ## AIM:
@@ -33,6 +31,12 @@ Using NOR gates NOR gate is actually a combination of two logic gates: OR gate f
 4.End the program.
 
 ## Program:
+```
+Program to implement the given logic function and to verify its operations in quartus using
+Verilog programming.
+Name: Sai Darshan
+Register Number: 2212221240047
+```
 ```
 module exp2(A,B,C,D,F1);
 input A,B,C,D;
